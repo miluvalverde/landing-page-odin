@@ -13,7 +13,7 @@ body {
 
 /* #################### SECTION HEADER ####################*/
 header {
-    background-color: rgb(240, 98, 98);
+    background-color: rgb(192, 75, 75);
     display: flex;
     justify-content: space-around;
     padding: 30px;
@@ -21,15 +21,55 @@ header {
     top: 0;
 }
 .logo {
-    color: rgb(92, 7, 7);
-    font-size: 1.5rem;
+    color: rgb(253, 194, 194);
+    font-size: 1.8rem;
     font-weight: 800;
 }
 .nav a {
-    color: rgb(92, 7, 7);
+    color: rgb(253, 194, 194);
     font-size: 1.2rem;
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
     text-decoration: none;
 }
+
+
+
+/* #################### SECTION HEADER ####################*/
+
+/* ########## Section1 ########## */
+.section1 {
+    background-color: rgb(192, 75, 75);
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 250px;
+}
+.section1-div1 h2 {
+    color: rgb(253, 194, 194);
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    width: 500px;
+}
+.section1-div1 p {
+    color: rgb(253, 194, 194);
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 550px;
+}
+.section1-div1 button {
+    background-color: brown;
+    border-radius: 10px;
+    color: rgb(253, 222, 222);
+    font-size: 18px;
+    font-weight: 800;
+    height: 40px;
+    width: 150px;
+}
+.section1-div2 img {
+    border-radius: 20px;
+}
+
+
+

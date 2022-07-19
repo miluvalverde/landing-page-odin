@@ -98,6 +98,7 @@ main {
     align-items: center;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 10px;
 }
@@ -108,7 +109,7 @@ main {
 .section2-div1 p {
     color: brown;
     margin-top: 20px;
-    width: 225px;
+    max-width: 225px;
 }
 .section2-div1 img {
     border-radius: 10px;
@@ -137,3 +138,38 @@ main {
     font-weight: 600;
 }
 
+
+
+/* ########## Section4 ########## */
+.section4 {
+    margin: 50px 300px;
+}
+.section4-div {
+    align-items: center;
+    background-color: brown;
+    border-radius: 20px;
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    padding: 50px 150px;
+    width: 1200px;
+}
+.section4-div1 {
+    color: rgb(255, 225, 225);
+}
+.section4-div1 h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.section4-div1 p {
+    font-size: 1rem;
+}
+.section4-div2 button {
+    background-color: brown;
+    color: rgb(253, 222, 222);
+    border: 2px solid rgb(255, 225, 225);
+    font-size: 1rem;
+    font-weight: 800;
+    height: 40px;
+    width: 150px;
+}

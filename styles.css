@@ -55,14 +55,14 @@ main {
 }
 .section1-div1 h2 {
     color: rgb(253, 194, 194);
-    font-size: 48px;
+    font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 15px;
     width: 500px;
 }
 .section1-div1 p {
     color: rgb(253, 194, 194);
-    font-size: 18px;
+    font-size: 1rem;
     margin-bottom: 15px;
     width: 550px;
 }
@@ -70,7 +70,7 @@ main {
     background-color: brown;
     border-radius: 10px;
     color: rgb(253, 222, 222);
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 800;
     height: 40px;
     width: 150px;
@@ -89,7 +89,7 @@ main {
 }
 .section2 h2 {
     color: brown;
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: 800;
     margin-bottom: 50px;
     text-align: center;
@@ -102,7 +102,7 @@ main {
     margin: 10px;
 }
 .section2-div1 {
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
 }
 .section2-div1 p {
@@ -112,5 +112,28 @@ main {
 }
 .section2-div1 img {
     border-radius: 10px;
+}
+
+
+
+/* ########## Section3 ########## */
+.section3 {
+    background-color: rgb(255, 225, 225);
+    color: brown;
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+.section3-div1 h2{
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 100;
+    width: 1200px;
+}
+.section3-div2 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 

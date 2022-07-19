@@ -1,1 +1,2 @@
 # landing-page-odin
+In this project I will be putting into practice the HTML and CSS knowledge I've been reading in Odin Project. It wil include HTML boilerplate, elements, tags, lists, links, images, CSS foundations, box model anf flexbox.

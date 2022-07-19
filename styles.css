@@ -152,7 +152,6 @@ main {
     gap: 70px;
     justify-content: space-between;
     padding: 50px 150px;
-    width: 1200px;
 }
 .section4-div1 {
     color: rgb(255, 225, 225);
@@ -168,8 +167,25 @@ main {
     background-color: brown;
     color: rgb(253, 222, 222);
     border: 2px solid rgb(255, 225, 225);
-    font-size: 1rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
     font-weight: 800;
     height: 40px;
     width: 150px;
+}
+
+
+
+
+
+/* #################### SECTION MAIN ####################*/
+.copyright {
+    background-color: rgb(192, 75, 75);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: rgb(253, 222, 222);
+
+    font-size: 1rem;
 }

@@ -36,7 +36,15 @@ header {
 
 
 
-/* #################### SECTION HEADER ####################*/
+
+
+/* #################### SECTION MAIN ####################*/
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 
 /* ########## Section1 ########## */
 .section1 {
@@ -72,4 +80,37 @@ header {
 }
 
 
+
+/* ########## Section2 ########## */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 225px;
+}
+.section2 h2 {
+    color: brown;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section2-div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+.section2-div1 {
+    font-size: 18px;
+    text-align: center;
+}
+.section2-div1 p {
+    color: brown;
+    margin-top: 20px;
+    width: 225px;
+}
+.section2-div1 img {
+    border-radius: 10px;
+}
 
